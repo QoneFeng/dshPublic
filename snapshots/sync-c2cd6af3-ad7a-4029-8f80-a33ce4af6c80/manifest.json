@@ -1,0 +1,36 @@
+{
+  "id": "sync-c2cd6af3-ad7a-4029-8f80-a33ce4af6c80",
+  "createdAt": "2026-11-17T03:41:42.357Z",
+  "manifest": {
+    "schemaVersion": 1,
+    "dshVersion": "0.2.2-rc.3",
+    "platform": "win32",
+    "sectionIds": [
+      "settings",
+      "ui",
+      "providers",
+      "plugins",
+      "prompts",
+      "skills",
+      "agentPresets",
+      "agentInstructions",
+      "self"
+    ],
+    "containsSecrets": false,
+    "transport": "git",
+    "sourceHome": "C:\\Users\\feng_wenqiang\\.dsh",
+    "deviceId": "7d38fa33-7b01-40d4-aba7-55812742e400",
+    "deviceName": "ZALP2009002"
+  },
+  "sectionHashes": {
+    "settings": "4ae882366ac474079f2f4d84a20723163ae82dee443f0841a5e0f2cd76b4be9e",
+    "ui": "80978e7be56d94ff304f33196edab63d0a88159963ec4e66165754366dafa856",
+    "providers": "d32ce10c21f0dbc18ed430214c7dbed0e640fd9b0290f588ccd4665b067d4f15",
+    "plugins": "4ed9b9628d1a6a2ff0127844c9cf67faddbeea989af3bd3b7d0c353fc69c4cad",
+    "prompts": "23d05fd89e9e61985416d8fb3dfc30e5aae4298aa4f684f2a0391b49d70e8cfd",
+    "skills": "2ba151c0166bedcd8191b61e16986f7d7b9ee0965537228044cdfbe5318b9703",
+    "agentPresets": "2fe09dfb1ef1f6216d00cf7c1a1e3380349f61fe0ea40c3ea8dcb76e9d670eea",
+    "agentInstructions": "1c96faab0adf88222201cafec33b205d263826f2d69bc2d5a16761d30fc23e07",
+    "self": "b6bcc68f066f974db2d09a101b0ca5cc9f05ed0344868f0688f77da8f2a98d2e"
+  }
+}
