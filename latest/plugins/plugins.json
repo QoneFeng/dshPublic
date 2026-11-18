@@ -2,6 +2,16 @@
   "version": 1,
   "plugins": [
     {
+      "name": "@michengai/dsh-agency-agents",
+      "version": "1.2.34",
+      "spec": "1.2.34",
+      "isBundle": true,
+      "inBundles": [
+        "@michengai/dsh-agency-agents"
+      ],
+      "enabled": true
+    },
+    {
       "name": "@michengai/dsh-skills-manager",
       "version": "1.4.10",
       "spec": "1.4.10",
@@ -38,6 +48,16 @@
       "isBundle": true,
       "inBundles": [
         "@vectorize-io/hindsight-coding-agents"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-agents-visualization",
+      "version": "0.2.2",
+      "spec": "0.2.2",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-agents-visualization"
       ],
       "enabled": true
     },
@@ -122,6 +142,16 @@
       "enabled": true
     },
     {
+      "name": "dsh-univer-office",
+      "version": "0.4.0",
+      "spec": "0.4.0",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-univer-office"
+      ],
+      "enabled": true
+    },
+    {
       "name": "dsh-windows-mcp",
       "version": "0.2.11",
       "spec": "0.2.11",
@@ -133,8 +163,8 @@
     },
     {
       "name": "dshmarket",
-      "version": "1.73.19",
-      "spec": "1.73.19",
+      "version": "1.73.20",
+      "spec": "1.73.20",
       "isBundle": true,
       "inBundles": [
         "dshmarket"
@@ -249,6 +279,71 @@
         "config": {
           "default": "standard",
           "selectedDefault": "cordis"
+        }
+      }
+    },
+    {
+      "file": "profiles/desktop/cordis.patch.yml",
+      "lineId": "genui",
+      "raw": {
+        "id": "genui",
+        "name": "dsh-genui",
+        "config": {
+          "sectionOrder": 80,
+          "sectionName": "genui:cards",
+          "promptEnabled": true,
+          "promptMode": "plus"
+        }
+      }
+    },
+    {
+      "file": "profiles/desktop/cordis.patch.yml",
+      "lineId": "agency-agents",
+      "raw": {
+        "id": "agency-agents",
+        "name": "@michengai/dsh-agency-agents",
+        "config": {
+          "enabled": [
+            "product-sprint-prioritizer",
+            "product-feedback-synthesizer",
+            "product-manager",
+            "product-dx-engineer",
+            "product-behavioral-nudge-engine",
+            "testing-api-tester",
+            "testing-workflow-optimizer",
+            "testing-test-results-analyzer",
+            "testing-tool-evaluator",
+            "design-ux-researcher",
+            "engineering-software-architect",
+            "security-appsec-engineer",
+            "testing-reality-checker",
+            "design-image-prompt-engineer",
+            "design-ui-designer",
+            "design-ux-architect"
+          ],
+          "customExperts": [],
+          "enabledTeams": [
+            "team-product",
+            "team-technical"
+          ]
+        }
+      }
+    },
+    {
+      "file": "profiles/desktop/cordis.patch.yml",
+      "lineId": "mcp-dsh-computer-use-win",
+      "raw": {
+        "id": "mcp-dsh-computer-use-win",
+        "name": "dsh-computer-use-win",
+        "config": {
+          "mode": "full",
+          "indicatorEnabled": true,
+          "cursorIndicatorEnabled": true,
+          "indicatorPosition": "top",
+          "indicatorIdleMs": 800,
+          "indicatorText": "DSH 正在控制电脑",
+          "remoteIndicatorVisible": true,
+          "previewToken": 1794968525906
         }
       }
     }

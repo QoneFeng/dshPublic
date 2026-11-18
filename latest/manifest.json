@@ -1,6 +1,6 @@
 {
-  "id": "sync-c2cd6af3-ad7a-4029-8f80-a33ce4af6c80",
-  "createdAt": "2026-11-17T03:41:42.357Z",
+  "id": "sync-34b85b14-3839-435b-a192-10a7fd938062",
+  "createdAt": "2026-11-18T02:38:37.172Z",
   "manifest": {
     "schemaVersion": 1,
     "dshVersion": "0.2.2-rc.3",
@@ -23,10 +23,10 @@
     "deviceName": "ZALP2009002"
   },
   "sectionHashes": {
-    "settings": "4ae882366ac474079f2f4d84a20723163ae82dee443f0841a5e0f2cd76b4be9e",
+    "settings": "8cf69f95f2f5dd0516efd46b1a3cf5549ad7d3013c8e64149fab0d09c8aeae55",
     "ui": "80978e7be56d94ff304f33196edab63d0a88159963ec4e66165754366dafa856",
     "providers": "d32ce10c21f0dbc18ed430214c7dbed0e640fd9b0290f588ccd4665b067d4f15",
-    "plugins": "4ed9b9628d1a6a2ff0127844c9cf67faddbeea989af3bd3b7d0c353fc69c4cad",
+    "plugins": "ee5c8cea332ff327a44fa3f898e366e2ce31e00c85884b8eb4a36d1bd81c3dee",
     "prompts": "23d05fd89e9e61985416d8fb3dfc30e5aae4298aa4f684f2a0391b49d70e8cfd",
     "skills": "2ba151c0166bedcd8191b61e16986f7d7b9ee0965537228044cdfbe5318b9703",
     "agentPresets": "2fe09dfb1ef1f6216d00cf7c1a1e3380349f61fe0ea40c3ea8dcb76e9d670eea",

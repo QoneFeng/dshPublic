@@ -454,7 +454,7 @@
         "selectedDefault": "cordis"
       },
       "base": {},
-      "revision": 1,
+      "revision": 0,
       "applies": [
         "live"
       ],
@@ -499,7 +499,8 @@
     },
     "genui": {
       "value": {
-        "promptEnabled": true
+        "promptEnabled": true,
+        "promptMode": "plus"
       },
       "base": {
         "promptEnabled": true
@@ -680,7 +681,7 @@
         "stopShortcut": "",
         "communityNote": "full",
         "resumeToken": 0,
-        "previewToken": 0
+        "previewToken": 1794968525906
       },
       "base": {
         "browserFirst": true,
@@ -739,6 +740,62 @@
         "communityNote": "full",
         "resumeToken": 0,
         "previewToken": 0
+      },
+      "revision": 1,
+      "applies": [
+        "live"
+      ],
+      "secrets": []
+    },
+    "agency-agents": {
+      "value": {
+        "summonTaskMaxChars": 3000,
+        "enabled": [
+          "product-sprint-prioritizer",
+          "product-feedback-synthesizer",
+          "product-manager",
+          "product-dx-engineer",
+          "product-behavioral-nudge-engine",
+          "testing-api-tester",
+          "testing-workflow-optimizer",
+          "testing-test-results-analyzer",
+          "testing-tool-evaluator",
+          "design-ux-researcher",
+          "engineering-software-architect",
+          "security-appsec-engineer",
+          "testing-reality-checker",
+          "design-image-prompt-engineer",
+          "design-ui-designer",
+          "design-ux-architect"
+        ],
+        "customExperts": [],
+        "customTeams": [],
+        "enabledTeams": [
+          "team-product",
+          "team-technical"
+        ]
+      },
+      "base": {
+        "summonTaskMaxChars": 3000,
+        "enabled": [],
+        "customExperts": [],
+        "customTeams": [],
+        "enabledTeams": []
+      },
+      "revision": 0,
+      "applies": [
+        "live"
+      ],
+      "secrets": []
+    },
+    "univer": {
+      "value": {
+        "autoOpenLivePreview": true,
+        "conversationReviewCards": true
+      },
+      "base": {
+        "autoOpenLivePreview": true,
+        "conversationReviewCards": true
       },
       "revision": 0,
       "applies": [
